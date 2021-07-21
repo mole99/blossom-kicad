@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name blossom)(type KiCad)(uri ${KIPRJMOD}/blossom.pretty)(options "")(descr ""))
+)
