@@ -1,17 +1,18 @@
-# blossom-kicad
-A simple PCB in the shape of a flower designed using KiCad
+# Blossom
+
+Blossom is my attempt at an Open Source Board designed using [KiCad](https://www.kicad.org/) and [OpenSCAD](https://openscad.org/). It packs 12 LEDs driven by a technique called Charlieplexing and 3 Buttons which are read using one analog pin. The board itself resembles a flower, at its heart an ATtiny85 MCU.
 
 ![3D-render](images/blossom.png)
 
+The firmware for the board can be found in the [blossom-firmware](https://github.com/mole99/blossom-firmware) repository.
+
 # The KiCad Project
 
-The project related files are to be found in `kicad/`. The aim of the project was to learn a lot and besides that create a small PCB controlled by an ATtiny85 which controls some LEDs and reads in input from three buttons.
+The project related files are placed in `kicad/`. The aim of the project was to learn a lot and besides that create a small PCB controlled by an ATtiny85 which blinks some LEDs and reads in input from three buttons.
 
 ![layout](images/layout-blossom.png)
 
-The 12 LEDs are controlled by just 4 pins using Charlieplexing. And the state of the 3 buttons is sampled by charging a capacitor depending on which button is pressed and reading the analog input.
-
-The firmware enough for some simple blinking can be found here TODO
+The 12 LEDs are controlled by just 4 pins using [Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing). The current states of the 3 buttons is sampled by charging a capacitor depending on which button is pressed and reading the analog input.
 
 # The board outline
 
@@ -29,6 +30,6 @@ You can easily do this with this command:
 
 where `p` stands for precision, the smaller the more precise.
 
-# The end product
+# The finished PCB
 
 ![layout](images/blossom-top.jpg)
