@@ -6,6 +6,8 @@ Blossom is my attempt at an Open Source Board designed using [KiCad 6](https://w
 
 The firmware for the board can be found in the [blossom-firmware](https://github.com/mole99/blossom-firmware) repository.
 
+Have a look at the interactive BOM [here](https://htmlpreview.github.io/?https://github.com/mole99/blossom-kicad/blob/main/ibom/ibom.html).
+
 # The KiCad Project
 
 The project related files are placed in `kicad/`. The aim of the project was to learn a lot and besides that create a small PCB controlled by an ATtiny85 which blinks some LEDs and reads in input from three buttons.
